@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "fitness-project",
+    "slug": "fitness-project",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/fitnessIcon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/fitnessIcon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.fitness.project"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
