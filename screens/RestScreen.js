@@ -1,6 +1,6 @@
 import { useNavigation } from "@react-navigation/native";
 import React, { useEffect, useState } from "react";
-import { StyleSheet, View, SafeAreaView, Image, Text } from "react-native";
+import { StyleSheet, SafeAreaView, Image, Text } from "react-native";
 
 const RestScreen = () => {
   let timer = 0;

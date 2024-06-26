@@ -9,6 +9,7 @@ import {
   Pressable,
 } from "react-native";
 import { FitnessItems } from "../Context";
+import fitness from "../data/fitness";
 
 const FitScreen = () => {
   const route = useRoute();
@@ -49,7 +50,7 @@ const FitScreen = () => {
             setCompleted([...completed, current.name]);
             setWorkout(workout + 1);
             setMinutes(minutes + 2.5);
-            setCalories(calories + 6.3);
+            setCalories(calories + current.calories);
             setTimeout(() => {
               setIndex(index + 1);
             }, 2000);
